@@ -1,0 +1,63 @@
+body {
+    background-color: #3c403d;
+    font-family: "Special Elite", cursive;
+}
+
+.header {
+    background-color: #3c403d;
+}
+
+.title {
+    text-align: center;
+    color: #daded4;
+}
+
+.bar {
+    background: #a3bcb6;
+    flex: 1 1 0;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+#bars {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 500px;
+    width: 1400px;
+}
+
+.bars-container {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 0px 28px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "Special Elite", cursive;
+}
+
+#arr-sz {
+    cursor: pointer;
+}
+
+#sort-speed {
+    cursor: pointer;
+}
+
+.info {
+    color: dodgerblue;
+}

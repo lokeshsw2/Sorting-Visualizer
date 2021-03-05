@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sorting Visualizer</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/sorting.css" />
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="title">Sorting Vsualizer</h1>
+            <nav class="navbar">
+                <button type="button" id="new-array" class="btn info">New Array</button>
+                <div>
+                    <label for="arr-sz" style="color: #daded4">Size</label>
+                    <input type="range" id="arr-sz" name="points" min="20" max="150" />
+                </div>
+                <div>
+                    <label for="sort-speed" style="color: #daded4">Speed</label>
+                    <input type="range" id="sort-speed" name="sort_speed" min="1" max="250" />
+                </div>
+                <div id="button-container">
+                    <button class="btn info" id="bubble-sort">Bubble sort</button>
+                    <button class="btn info" id="selection-sort">Selection sort</button>
+                    <button class="btn info" id="insertion-sort">Insertion sort</button>
+                    <button class="btn info" id="quick-sort">Quick sort</button>
+                    <button class="btn info" id="merge-sort">Merge sort</button>
+                </div>
+            </nav>
+        </div>
+        <div class="bars-container">
+            <div id="bars"></div>
+        </div>
+
+        <!-- Java Script -->
+        <script src="./js/sorting.js"></script>
+    </body>
+</html>
